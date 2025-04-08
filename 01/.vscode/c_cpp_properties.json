@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/lib/modules/4.18.0-15-generic/build",
+                "/lib/modules/4.18.0-15-generic/build/include/uapi",
+                "/lib/modules/4.18.0-15-generic/build/include/generated/uapi",
+                "/lib/modules/4.18.0-15-generic/build/arch/x86/include",
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/lib/modules/4.18.0-15-generic/build/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "linux",
+            "includePath": [
+                "${default}"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-arm"
+        }
+    ],
+    "version": 4
+}

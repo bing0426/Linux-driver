@@ -1,0 +1,1 @@
+cmd_/home/book/sama/Driver/02/my_sample_driver.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/sama/Driver/02/my_sample_driver.ko /home/book/sama/Driver/02/my_sample_driver.o /home/book/sama/Driver/02/my_sample_driver.mod.o ;  true
