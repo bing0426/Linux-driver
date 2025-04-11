@@ -1,0 +1,1 @@
+cmd_/home/book/sama/Driver/08/my_platform_device.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/sama/Driver/08/my_platform_device.ko /home/book/sama/Driver/08/my_platform_device.o /home/book/sama/Driver/08/my_platform_device.mod.o ;  true
