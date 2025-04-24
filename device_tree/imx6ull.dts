@@ -1,0 +1,12 @@
+/dts-v1/;
+/ {
+    #address-cells = <1>;  
+    #size-cells = <1>; 
+    myled@20c406c {
+        model = "this is a led desc";
+        dev_type = "LED";
+        compatible = "my_platform_device";
+        reg = <0x020c406C 0x4 0x020AC000 0x4>;
+        status = "okay";
+    };
+};
