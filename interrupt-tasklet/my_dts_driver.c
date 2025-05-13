@@ -1,5 +1,6 @@
 #include <linux/module.h>
 #include <linux/init.h>
+#include <linux/kernel.h>
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 #include <linux/cdev.h>
@@ -221,8 +222,6 @@ struct platform_driver my_platform_driver = {
 };
 
 // 函数入口
-static int __init my_sample_driver_init(void)
-{
     int ret;
     printk("driver 入口函数\n");
 

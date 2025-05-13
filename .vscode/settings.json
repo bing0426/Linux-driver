@@ -7,6 +7,10 @@
         "module.h": "c",
         "requestcmd.h": "c",
         "wait.h": "c",
-        "input.h": "c"
-    }
+        "input.h": "c",
+        "jiffies.h": "c",
+        "interrupt.h": "c",
+        "irqflags.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
